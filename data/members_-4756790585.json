@@ -17,12 +17,12 @@
   {
     "telegram_id": 1562701587,
     "name": "Anя♡",
-    "active": true
+    "active": false
   },
   {
     "telegram_id": 1174759859,
     "name": "Лиза",
-    "active": true
+    "active": false
   },
   {
     "telegram_id": 1174432928,
@@ -32,12 +32,12 @@
   {
     "telegram_id": 1296465308,
     "name": "Ксения",
-    "active": true
+    "active": false
   },
   {
     "telegram_id": 8105701519,
     "name": "Алёна",
-    "active": true
+    "active": false
   },
   {
     "telegram_id": 1963871659,
@@ -47,11 +47,6 @@
   {
     "telegram_id": 710089785,
     "name": "Дарья",
-    "active": true
-  },
-  {
-    "telegram_id": 1460296068,
-    "name": "Olya Kuleshova",
     "active": true
   },
   {

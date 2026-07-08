@@ -1,4 +1,5 @@
 from aiogram import Bot, Dispatcher
+from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 import asyncio
 from config import BOT_TOKEN
@@ -24,7 +25,9 @@ async def send_christmas_message(bot: Bot, date_label: str):
         await bot.send_message(chat_id, f"🎄Сегодня {date_label}. Всех с Рождеством!🌟")
 
 async def main():
-    bot = Bot(token=BOT_TOKEN, parse_mode=ParseMode.HTML)
+    bot = Bot(
+    token=BOT_TOKEN,
+    default=DefaultBotProperties(parse_mode=ParseMode.HTML))
     dp = Dispatcher()
     dp.include_router(start.router)
     dp.include_router(register.router)
